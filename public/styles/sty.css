@@ -1,0 +1,122 @@
+#content {
+    border: none;
+    /* border: 1px solid darkgrey; */
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+body:not(fieldset){
+    background-color: #221414;
+}
+.room{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+.custom{
+    border: none;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    color: firebrick;
+}
+fieldset{
+    width: 424px;
+    /* box-shadow:20px 20px 8px aqua; */
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.us-custom  {
+    border-radius: 4px;
+    border: 1px solid teal;
+    box-shadow:4px 4px 2px aqua;
+}
+#message{
+    border: 1px solid teal;
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+}
+#message:focus{
+    outline: none;
+}
+input::placeholder{
+    color: rgb(76, 41, 139);
+    font-weight: inherit;
+}
+#time{
+    font-size: 10px;
+    color: red;
+}
+#time :hover{
+    font-size: 25px;
+}
+/* #content p {
+    margin: 5px;
+} */
+
+#username, #content, #message, #sendMessage {
+    margin-bottom: 5px;
+}
+.message{
+    height: auto;
+    width: 150px;
+    background: blueviolet;
+    border-radius: 10px;
+    color: white;
+    line-height: 30px;
+    padding-left: 5px;
+    word-wrap: break-word;
+    margin: 5px;
+}
+#us{
+    color: black;
+}
+legend{
+    color: oran;
+}
+button{
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #5bc0de;
+    color: #fffffe;
+    width:  80px;
+    margin-left:22px;
+    cursor: pointer;
+}
+.timee{
+    color: red;
+    font-size: 14px;
+    margin: 5px;
+}
+#name-in{
+    height: 10x;
+    width: 300px;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    color: #1f2602; 
+}
+/* Custom scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px; 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
