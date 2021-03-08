@@ -1,1 +1,1 @@
-# Chat real-time by nodejs
+# Mini project chat real-time by nodejs
